@@ -7,7 +7,7 @@
 header{
     width: 100%;
     height: 8vh;
-    background-color: rgb(103, 140, 172);
+    background-color: rgb(244, 246, 248);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +45,7 @@ main{
     padding-top: 0%;
     padding-bottom: 0%;
 }
-section{
+#section1{
     display: flex;
     justify-content:flex-start;
     align-items: center;
@@ -55,11 +55,11 @@ section{
     position: relative;
 
 }
-section h1{
+#section1 h1{
     font-size: 330%;
 
 }
-section div{
+#section1 div{
     width: 42%;
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +67,7 @@ section div{
     flex-direction: column;
     margin:0% 3% 0% 3%;
 }
-section p{
+#section1 p{
     margin: 2%;
 
 }
@@ -76,9 +76,10 @@ section p{
     position: absolute;
     right: 1%;
     bottom: -12%;
+    z-index: 8;
 
 }
-section button{
+#section1 button{
     width: 30%;
     padding: 1%;
     font-size: 100%;
@@ -86,17 +87,35 @@ section button{
     border-color:  rgb(0, 100, 214);
     color: white;
 }
-section button:hover{
+#section1 button:hover{
     cursor: pointer;
 }
-section span{
+#section1 span{
     margin-top: 1%;
     margin-bottom: 1%;
 }
 #frecciagiu{
     font-size: 300%;
     margin-top: 4%;}
+    
 #section2{
-    background-color: rgb(36, 10, 59);
-    height: 100vh;
+        height: 30vh;
+        background-color: rgb(170, 238, 10);
+    }
+
+#section2 h2{
+    padding: 7% 0% 0% 27%;
+    font-size: 250%;
+    margin-bottom: 4%;
+    
 }
+#mensile{
+    margin-left: 27%;
+    width: 1%;
+}
+#annuale{
+    margin-left: 4%;
+    width: 1%;
+    
+}
+
