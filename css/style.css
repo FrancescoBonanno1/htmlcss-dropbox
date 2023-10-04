@@ -152,6 +152,9 @@ main{
 #section3 button:hover{
     cursor:pointer;
 }
+#section3 a:hover{
+    color: rgb(125, 33, 245);
+}
 .tableline{
     width: 25%;
     color: rgb(163, 163, 163);
@@ -180,8 +183,8 @@ li i{
     justify-content: center;
     flex-wrap: wrap;
     height: 4%;
-    width: 257px;
-    left: 393px;
+    width: 303px;
+    left: 465px;
     top: 11%;
     background-color: white;
     border: 1px solid black;
@@ -194,8 +197,8 @@ li i{
         justify-content: center;
         flex-wrap: wrap;
         height: 4%;
-        width: 257px;
-        left: 699px;
+        width: 303px;
+        left: 825px;
         top: 11%;
         background-color: white;
         border: 1px solid black; 
@@ -207,8 +210,8 @@ li i{
         justify-content: center;
         flex-wrap: wrap;
         height: 4%;
-        width: 257px;
-        left: 1004px;
+        width: 304px;
+        left: 1186px;
         top: 11%;
         background-color: white;
         border: 1px solid black;
@@ -243,9 +246,9 @@ li i{
         justify-content: center;
         flex-wrap: wrap;
         height: 17%;
-        width: 884px;
-        left: 385px;
-        top: -19%;
+        width: 1044px;
+        left: 455px;
+        top: -26%;
         background-color: white;
         border: 1px solid black;
     }
@@ -297,4 +300,177 @@ li i{
         position: absolute;
         right: 30%;
         top: 54%;
+    }
+    #section6{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(248, 114, 248);
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    #section6 h2{
+        margin: 0% 0% 0% 0%;
+        font-size: 200%;
+        position: absolute;
+        left: 24%;
+        top: 8%;
+    }
+    .container6{
+        width: 26%;
+        margin: 3% 1% 0% 2%;
+        padding: 3% 0% 0% 0%;
+    }
+    #section6 img{
+        width: 60%;
+    }
+    #section7{
+        width: 100%;
+        position: relative;
+        height: 15vh;
+        background-color: chartreuse;
+
+    }
+    #section7 h2{
+        margin: 0% 0% 0% 0%;
+        font-size: 200%;
+        position: absolute;
+        left: 24%;
+        top: 8%;
+        width: 30%;
+    }
+    #section7 div{
+        width: 40%;
+    }
+    #section7 a{
+        position: absolute;
+        left: 24%;
+        top:70%;
+    
+    }
+    #section7 a:hover{
+        color: rgb(125, 33, 245);
+    }
+    #section8{
+        position: relative;
+        width:100%;
+        height:50vh;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #section8 img{
+        width: 33%;
+    }
+    #containertext{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 0%;
+        height: 100%;
+        background-color: rgb(214, 214, 214);
+        overflow: auto;
+    }
+    #section8 div *{
+        margin: 3% 0% 2% 0%;
+        padding: 3% 1% 4% 3%;
+    }
+    #section8 hr{
+        width: 22%;
+        padding: 0%;
+        color: rgb(163, 163, 163); 
+    }
+    #boxbordeaux{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 15%;
+        left: 15%;
+        top: 0%;
+        background-color: rgb(94, 0, 0);
+    }
+    #verde{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 15%;
+        left: 0%;
+        top: 0%;
+        background-color: rgb(131, 240, 68);
+        border: 20px solid rgb(200, 252, 123)
+    }
+    #azzurro{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 15%;
+        left: 0%;
+        top: 50%;
+        background-color: rgb(6, 232, 248);
+        z-index: 9;
+    }
+    #rossol{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 15%;
+        left: 15%;
+        top: 50%;
+        background-color: rgb(255, 38, 0);
+    }
+    #rossor{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 15%;
+        left: 70%;
+        top: 0%;
+        background-color: rgb(255, 0, 0);
+    }
+    #celestino{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 15%;
+        left: 85%;
+        top: 0%;
+        background-color: rgb(149, 237, 243);
+    }
+    #bluscuro{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 15%;
+        left: 70%;
+        top: 50%;
+        background-color: rgb(6, 50, 248);
+    }
+    #giallo{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:50%;
+        left: 85%;
+        top: 50%;
+        background-color: rgb(255, 251, 0);
     }
