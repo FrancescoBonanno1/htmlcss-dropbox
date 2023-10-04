@@ -28,6 +28,10 @@ header a{
     color: rgb(94, 94, 94);
     margin:0% 5% 0% 5%;
 }
+header a:hover{
+    border-bottom: 1px solid black;
+    padding-bottom: 1%;
+}
 header button{
     background-color: rgb(0, 100, 214);
     width: 11%;
@@ -37,6 +41,7 @@ header button{
 }
 header button:hover{
     cursor:pointer;
+    filter: contrast(85%);
 }
 main{
     overflow: auto;
@@ -50,7 +55,6 @@ main{
     justify-content:flex-start;
     align-items: center;
     flex-wrap: nowrap;
-    background-color: brown;
     height: 75vh;
     position: relative;
 
@@ -88,6 +92,7 @@ main{
 }
 #section1 button:hover{
     cursor: pointer;
+    filter: contrast(85%);
 }
 #section1 span{
     margin-top: 2%;
@@ -99,7 +104,6 @@ main{
     
 #section2{
         height: 30vh;
-        background-color: rgb(170, 238, 10);
     }
 
 #section2 h2{
@@ -118,7 +122,6 @@ main{
     
 }
 #section3{
-    background-color: aqua;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -128,7 +131,7 @@ main{
 }
 .colonna{
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid   rgba(75, 75, 75, 0.678);
     width:16%;
     height: 70%;
     display: flex;
@@ -151,9 +154,11 @@ main{
 }
 #section3 button:hover{
     cursor:pointer;
+    filter: contrast(85%);
 }
 #section3 a:hover{
     color: rgb(125, 33, 245);
+    filter: contrast(85%);
 }
 .tableline{
     width: 25%;
@@ -183,11 +188,11 @@ li i{
     justify-content: center;
     flex-wrap: wrap;
     height: 4%;
-    width: 303px;
-    left: 465px;
+    width: 301px;
+    left: 461px;
     top: 11%;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid   rgba(75, 75, 75, 0.678);
 }
 #etichetta2{
     
@@ -197,11 +202,11 @@ li i{
         justify-content: center;
         flex-wrap: wrap;
         height: 4%;
-        width: 303px;
-        left: 825px;
+        width: 301px;
+        left: 819px;
         top: 11%;
         background-color: white;
-        border: 1px solid black; 
+        border: 1px solid   rgba(75, 75, 75, 0.678);
 }
 #etichetta3{
         position: absolute;
@@ -210,16 +215,15 @@ li i{
         justify-content: center;
         flex-wrap: wrap;
         height: 4%;
-        width: 304px;
-        left: 1186px;
+        width: 301px;
+        left: 1176px;
         top: 11%;
         background-color: white;
-        border: 1px solid black;
+        border: 1px solid rgba(75, 75, 75, 0.678);
     }
     #section4{
         width: 100%;
         height: 20vh;
-        background-color: brown;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -230,7 +234,7 @@ li i{
         width: 55%;
         height: 75%;
         flex-direction: column;
-        border: 1px solid black;
+        border: 1px solid  rgba(75, 75, 75, 0.678);
         display: flex;
         justify-content: space-evenly;
         align-items: flex-start;
@@ -246,11 +250,11 @@ li i{
         justify-content: center;
         flex-wrap: wrap;
         height: 17%;
-        width: 1044px;
-        left: 455px;
+        width: 1035px;
+        left: 452px;
         top: -26%;
         background-color: white;
-        border: 1px solid black;
+        border: 1px solid  rgba(75, 75, 75, 0.678);
     }
     #section4 button{
         background-color: rgb(0, 100, 214);
@@ -263,12 +267,12 @@ li i{
         top: 3%;
     }
     #section4 button:hover{
-        cursor:pointer
+        cursor:pointer;
+        filter: contrast(85%);
     }
     #section5{
         width: 100%;
         height: 60vh;
-        background-color: rgb(255, 217, 0);
         display: flex;
         align-items:flex-start;
         justify-content: flex-end;
@@ -276,8 +280,8 @@ li i{
     }
     #section5 img{
         position: absolute;
-        width: 42%;
-        left: 11%;
+        width: 35%;
+        left: 17%;
         top: 0%;
     }
     #section5 div{
@@ -301,10 +305,16 @@ li i{
         right: 30%;
         top: 54%;
     }
+    #section5 button:hover{
+        color: cornflowerblue;
+        border-color:2px solid  rgb(75, 75, 75);
+        cursor: pointer;
+        filter: contrast(85%);
+    }
+
     #section6{
         width: 100%;
         height: 100vh;
-        background-color: rgb(248, 114, 248);
         display: flex;
         justify-content: space-around;
         align-content: center;
@@ -312,7 +322,7 @@ li i{
         position: relative;
     }
     #section6 h2{
-        margin: 0% 0% 0% 0%;
+        margin: 0% 0% 1% 0%;
         font-size: 200%;
         position: absolute;
         left: 24%;
@@ -329,9 +339,7 @@ li i{
     #section7{
         width: 100%;
         position: relative;
-        height: 15vh;
-        background-color: chartreuse;
-
+        height: 23vh;
     }
     #section7 h2{
         margin: 0% 0% 0% 0%;
@@ -352,12 +360,12 @@ li i{
     }
     #section7 a:hover{
         color: rgb(125, 33, 245);
+        filter: contrast(85%);
     }
     #section8{
         position: relative;
         width:100%;
         height:50vh;
-        background-color: aquamarine;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -365,6 +373,10 @@ li i{
     }
     #section8 img{
         width: 33%;
+    }
+    #section8 span img{
+        filter: invert(100%);
+
     }
     #containertext{
         width: 40%;
@@ -474,3 +486,131 @@ li i{
         top: 50%;
         background-color: rgb(255, 251, 0);
     }
+    #section9{
+        width: 100%;
+        height: 30vh;
+        background-color: rgb(161, 205, 230);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    #section9 h2{
+        color: rgb(92, 41, 72);
+        font-size: 300%;
+        width: 30%;
+    }
+    #section9 button{
+        background-color: rgb(253, 253, 253);
+        width: 12%;
+        border: 2px solid  rgb(75, 75, 75);
+        color: rgb(75, 75, 75);
+        padding: 1%;
+        font-size: 97%;
+        right: 30%;
+        top: 54%;
+    }
+    #section9 button:hover{
+        color: cornflowerblue;
+        border-color:2px solid  rgb(75, 75, 75);
+        cursor: pointer;
+        filter: contrast(85%);
+    }
+    #section10{
+        width: 100%;
+        height: 50vh;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+    }
+    #section10 span{
+        font-weight: bold;
+        width: 20%;
+        font-size: 160%;
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0% 0%;
+    }
+    #section10 hr{
+        width: 125%;
+        background-color: rgb(163, 163, 163); 
+        margin: 3% 0% 3% 0%;
+
+    }
+    #section10 h2{
+        margin-right: 35%;
+        font-size: 240%;
+    }
+    #one{
+        width: 10%;
+        color: black;
+        position: absolute;
+        right: 6%;
+        bottom: 19%;
+    }
+    #two{
+        width: 10%;
+        color: black;
+        position: absolute;
+        right: 6%;
+        top: 58%;
+    }
+    #three{
+        width: 10%;
+        color: black;
+        position: absolute;
+        right: 6%;
+        top: 39%;
+    }
+    footer{
+        width: 100%;
+        height: 45vh;
+        background-color: black;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+
+    }
+    footer h2{
+        color: white;
+        font-size: 150%;
+        margin-bottom: 1%;
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+   footer div{
+    width: 20%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 5%;
+   }
+   footer i{
+    color: white;
+
+   }
+   footer i:hover{
+    cursor: pointer;
+   }
+   footer span{
+    position: absolute;
+    color: white;
+    left: 4%;
+    bottom: 6%;
+   }
+   footer hr{
+    position: absolute;
+    width: 6%;
+    color: white;
+    left: 4%;
+    bottom: 18%;
+   }
